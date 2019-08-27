@@ -5,7 +5,7 @@
 </head>
 <body>
 		
-		<?php
+<?php
 $con=mysqli_connect("localhost","root","","thailand");
 
 mysqli_set_charset($con, "utf8");
