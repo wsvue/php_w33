@@ -1,0 +1,61 @@
+
+Array
+
+Array stores multiple values in one single variable:
+
+Array is a special variable, which can hold more than one value at a time.
+
+If you have a list of items(a list of car names, for example), storing the cars in single variables could look like this:
+
+$cars1 ="Volvo";
+$cars2 = "BMW";
+$car3 = "Toyota";
+
+
+Create an Array in PHP
+in PHP, the array() function is used to create an array:
+
+in PHP, there are three types of arrays:
+- Indexed array - Arrays with a numeric index
+- Associative arrays -Arrays with named keys
+- Multidimensional arrays -Array containing one or more arrays
+
+
+PHP Indexed Arays
+there ar two ways to create indexed arrays:
+- $cars = array("Volvo","BMW", "Toyota");
+
+or the index can be assigned manually:
+	$cars1 ="Volvo";
+	$cars2 = "BMW";
+	$car3 = "Toyota";
+
+************
+PHP Associative Arrays
+Assciative arrays are arrays that use named keys that you assign to them.
+
+There are two ways to create an associative array:
+
+- $age = array("Peter"=>"35", "Ben"=> "33", "Joe"=>"45");
+
+Or
+- $age['Peter']= "35";
+- $age['Ben'] = "33";
+- $age['Joe'] = "45";
+
+*************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
