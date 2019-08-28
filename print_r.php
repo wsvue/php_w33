@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Using print_r()function to output an entire Array.</title>
 </head>
 <body>
 	<?php
