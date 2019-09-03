@@ -1,0 +1,23 @@
+
+Understanding Basic OOP Concetp
+
+-Classes
+-Objects
+-Properties
+-Methods
+
+*********
+
+Property can have one of three visibility levels
+-Pubic
+-Private
+-Protectd
+
+***********
+
+Static Properies
+
+Static members of a class are independent of  any particular object derived fro that class. To access a static property, you write the class name, 
+followed by two colons(::), followed by the property name (preceded by a $ symbol):
+
+myClass:: $myProperty = 123;

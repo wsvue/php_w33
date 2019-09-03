@@ -1,0 +1,23 @@
+
+Class Constants
+
+You learned in Chapter 3 that you can create constants-- spcecial identifiers that hold fixed values
+throughout the running of your script. PHP also lets you creatre constants wihin classes.
+To define a class constant, use the keyword 'const', as folows:
+
+exam:
+
+class myClass{
+	const myConst = 123;
+}
+
+Like 'static properties', you can access class constants via the class name and the '::' operator, but no '$' symbol.
+
+exam:
+
+echo myClass::myConst;
+
+
+Class constants ar useful whenever yo need to define a fixed vale, or set a configuration option,
+that's specific to the class in question. For example, for the  'Car' class you could define class constants to represent various types of cars, then use these constants when creating 'Car' objects:
+
